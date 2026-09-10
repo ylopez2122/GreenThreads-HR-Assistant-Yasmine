@@ -1,0 +1,46 @@
+# GreenThreads Denver Store #13 — HR Portfolio
+
+**Yasmine Lopez | HR Operations Liaison | AI.205: AI Integration in Business I**
+
+This portfolio documents one quarter of applying AI to a real operating problem: staffing
+GreenThreads' Denver Store #13 within a 90-day launch window, without adding corporate
+headcount. It moves from functional analysis, to document and data investigation, to a working,
+tested AI assistant, to an executive brief recommending action — one throughline, four
+deliverables.
+
+## The Story
+
+Denver's 14-person floor team needed to be built fast, and Sales Associate — the highest-turnover
+role and 8 of the 14 seats — was the bottleneck. Cross-referencing the Employee Handbook, offer
+letters, and 148 applicant records showed GreenThreads wasn't following its own written pay
+policy for this role, and applicant data confirmed the real cost: pay was the single most common
+reason candidates declined. A custom AI assistant was built and adversarially tested so HR could
+keep checking these numbers without a one-off analysis each time — and the resulting executive
+brief recommends a phased pay correction, while explicitly naming what Finance still needs to
+confirm before the full fix is guaranteed.
+
+## What's In This Portfolio
+
+| Deliverable | Folder | What It Covers |
+|---|---|---|
+| **HW#1 — Functional Brief** | [`HW1-Functional-Brief/`](./HW1-Functional-Brief) | Maps the HR function's workflow, identifies where AI can help (resume screening, staffing forecasting), and names the executive and local guardrails required before using AI on sensitive HR data. |
+| **HW#2 — Document Intelligence** | [`HW2-Document-Intelligence/`](./HW2-Document-Intelligence) | Cross-references the offer letter, Employee Handbook, and job posting against the applicant dataset to prove — not assume — that Sales Associate pay violates GreenThreads' own market-rate policy, and traces every claim back to its source. |
+| **HW#3 — Data Analysis** | [`HW3-Data-Analysis/`](./HW3-Data-Analysis) | Quantifies the pay gap and decline reasons by role, recommends closing the Sales Associate gap, and documents the data-cleaning and verification steps taken to catch a repeated-field miscalculation before it reached the recommendation. |
+| **HW#4 — Custom AI Assistant** | [`HW4-Custom-Assistant/`](./HW4-Custom-Assistant) | A ChatGPT project grounded in the HW#2–HW#3 findings, built with explicit anti-fabrication guardrails, and adversarially tested with 9 prompts designed to break it — documented in full, including the two hardest tests it had to pass. |
+| **HW#5 — Executive Brief** | [`HW5-Executive-Brief/`](./HW5-Executive-Brief) | The capstone recommendation to GreenThreads' CEO and CFO: a phased pay fix, backed by the evidence above, with the still-open cross-function questions named rather than glossed over. |
+
+## Why This Matters
+
+The value I bring isn't the chart or the summary — AI can produce those. It's knowing which
+numbers are confirmed, which are still assumptions, and when a disagreement between functions
+This needs to be escalated to a decision-maker rather than being quietly averaged away. Every deliverable
+here was checked against its source before being trusted, and the failures I found along the way
+— a repeated field that looked summable but wasn't, a budget figure with no traceable origin —
+are documented alongside the successes, not hidden.
+
+## Data Privacy
+
+The underlying applicant dataset contains real names, pay rates, and personal decline reasons for
+148 individuals. It is not uploaded to this public repository. Public documentation here uses
+aggregate findings only (role-level counts, rates, percentages) — the raw file remains in the
+access-controlled ChatGPT project referenced in HW#4.
