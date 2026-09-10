@@ -32,8 +32,7 @@ confirm before the full fix is guaranteed.
 ## Why This Matters
 
 The value I bring isn't the chart or the summary — AI can produce those. It's knowing which
-numbers are confirmed, which are still assumptions, and when a disagreement between functions
-This needs to be escalated to a decision-maker rather than being quietly averaged away. Every deliverable
+numbers are confirmed, which are still assumptions, and when a disagreement between functions needs to be escalated to a decision-maker instead of quietly averaged away." Every deliverable
 here was checked against its source before being trusted, and the failures I found along the way
 — a repeated field that looked summable but wasn't, a budget figure with no traceable origin —
 are documented alongside the successes, not hidden.
